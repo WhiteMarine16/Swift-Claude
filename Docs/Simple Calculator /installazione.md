@@ -22,7 +22,6 @@ sudo apt install -y \
   zlib1g-dev \
   qt6-base-dev \
   qt6-declarative-dev \
-  kde-frameworks-dev \
   cmake \
   extra-cmake-modules
 
