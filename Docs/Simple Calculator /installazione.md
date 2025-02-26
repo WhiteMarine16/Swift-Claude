@@ -26,7 +26,7 @@ sudo apt install -y \
   extra-cmake-modules
 
 # Scarichiamo Swift 6.0.3
-wget https://download.swift.org/swift-6.0.3-release/ubuntu2410/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-ubuntu24.10.tar.gz
+wget https://download.swift.org/swift-6.0.3-release/ubuntu2404/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-ubuntu24.04.tar.gz
 
 # Estraiamo l'archivio e installiamo Swift
 tar xzf swift-6.0.3-RELEASE-ubuntu24.10.tar.gz
