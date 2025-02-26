@@ -29,8 +29,8 @@ sudo apt install -y \
 wget https://download.swift.org/swift-6.0.3-release/ubuntu2404/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-ubuntu24.04.tar.gz
 
 # Estraiamo l'archivio e installiamo Swift
-tar xzf swift-6.0.3-RELEASE-ubuntu24.10.tar.gz
-sudo mv swift-6.0.3-RELEASE-ubuntu24.10 /usr/share/swift
+tar xzf swift-6.0.3-RELEASE-ubuntu24.04.tar.gz
+sudo mv swift-6.0.3-RELEASE-ubuntu24.04 /usr/share/swift
 
 # Aggiungiamo Swift al PATH
 echo 'export PATH=/usr/share/swift/usr/bin:$PATH' >> ~/.bashrc
