@@ -43,6 +43,5 @@ swift --version
 sudo snap install code --classic
 
 # Installiamo le estensioni per Swift in VS Code
-code --install-extension sswg.swift-lang
-code --install-extension vknabel.vscode-swift-development-environment
+code --install-extension swiftlang.swift-vscode
 code --install-extension vadimcn.vscode-lldb
