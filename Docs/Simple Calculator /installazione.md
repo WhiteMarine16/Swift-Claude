@@ -1,5 +1,6 @@
 # Aggiorniamo il sistema operativo
 sudo apt update
+
 sudo apt upgrade -y
 
 # Installiamo le dipendenze necessarie per Swift e lo sviluppo con KDE
@@ -30,6 +31,7 @@ wget https://download.swift.org/swift-6.0.3-release/ubuntu2404/swift-6.0.3-RELEA
 
 # Estraiamo l'archivio e installiamo Swift
 tar xzf swift-6.0.3-RELEASE-ubuntu24.04.tar.gz
+
 sudo mv swift-6.0.3-RELEASE-ubuntu24.04 /usr/share/swift
 
 # Aggiungiamo Swift al PATH
@@ -44,4 +46,5 @@ sudo snap install code --classic
 
 # Installiamo le estensioni per Swift in VS Code
 code --install-extension swiftlang.swift-vscode
+
 code --install-extension vadimcn.vscode-lldb
